@@ -1,0 +1,417 @@
+body {
+    /* resete estilo da pagina*/
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Inicio ajuste dotos*/
+.slick-dots  /* ajuste dots slick.js centro ...*/ {
+    position: absolute;
+    bottom: -25px;
+    background-color: none;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-prev,
+.slick-next /* ajuste dots lateral */ {
+    /* ajuste dots lateral */
+    font-size: none;
+    line-height: none;
+    right: 25px;
+    position: relative;
+}
+
+.one-time /*ajuste slick.js da margen do top*/ {
+    /*ajuste slick.js da margen do top*/
+    margin-top: -30px;
+}
+
+#img-header-size {
+     /* ajuste tamanho do slide slick.js*/
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.slick-list {
+    height: 300px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots li button:before {
+    /* ajuste dots slick.js centro*/
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    /* dots - margin do top*/
+
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: 1.25;
+    color: rgba(255, 255, 255, 0.233);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    /* stilo dots ... */
+    opacity: 1.75;
+    color: rgb(42, 252, 0);
+}
+
+/* conteudo sobre empresa*/
+.card {
+    border: none;
+    border-radius: 60px;
+}
+
+.card-body {
+    /* cor de fundo do card*/
+    background: #080808;
+}
+
+.card-text {
+    /* cor do textos dos cards*/
+
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.card-title {
+    /* cor do titulo dos cards*/
+    color: white;
+}
+
+/*sessão cards info*/
+
+/* Sessão abaixo dos cards noite do burd*/
+#position-img-logo {
+    /* posição do logo BURGER*/
+    text-align: center;
+}
+#Cardapio-paragrafo /* Confira nosso Cardapio*/{
+    /* Confira nosso Cardapio*/
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* final sessão loho e titulo*/
+
+/* container produtos*/
+#geral-container/* container geral sobre produtos*/ { /* container geral sobre produtos*/
+    background-image: url(/imgLogo/12951.png);
+    margin: 8px;
+}
+.menu-container/* ajuste direção dos produtos*/ {
+    /* ajuste direção dos produtos*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#logo-cardapio /* logo Burguer segunda sessão*/{
+    /* logo Burguer segunda sessão*/
+    height: 100px;
+    width: auto;
+}
+
+.menu-item /*container dos itens */ {
+    /*container dos itens */
+    background: #080808a8;
+    border-radius: 8px;
+    width: 550px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgb(102, 250, 3);
+}
+
+.menu-item-content /* ajusta padding do cart  e do item*/ {
+    /* ajusta padding do cart  e do item*/
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-item h3 /* fonte  do h3 dos produtos*/{
+    /* fonte  do h3 dos produtos*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.menu-item p /*fonte texto dos produtos*/{
+    /*fonte texto dos produtos*/
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffbfb;
+}
+
+#Cardapio-paragrafo /* h1 do nosso cardapio*/ {
+    /* h1 do nosso cardapio*/
+    margin-top: 60px;
+}
+
+.menu-item /*cor h1 dos produtos*/{
+    /*cor h1 dos produtos*/
+    font-size: 1.1em;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.menu-item button /*Stulos do botão adicionar car*/{
+    /*Stulos do botão adicionar car*/
+    background: #f5f8f538;
+    color: #080808;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    float: right;
+}
+
+.menu-item button:hover /*Stulos do botão adicionar car*/{
+    background: #2ae910;
+}
+
+#ham-size /*estylo para os burg itens*/{
+    /* ajuste img hamburg*/
+    height: 100px;
+    width: auto;
+    margin-top: 15px;
+    margin: 10px;
+}
+
+#ham-size:hover /* efeito no hamburg*/{
+    /* efeito no hamburg*/
+    transform: scale(1.1);
+}
+
+.menu-item /* colocar itens ao lado do outro*/{
+    /* colocar itens ao lado do outro*/
+    display: flex;
+}
+
+.container-bebidas h1 /* style e direção dos container*/{
+    /* style e direção dos container*/
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.one-time h1 /*slick.js promoção*/{
+    /*slick.js promoção*/
+    color: rgb(0, 253, 13);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price  /*preços dos produtos*/{
+    /*preços dos produtos*/
+    display: flex;
+    margin-top: 10px;
+    font-style: bold;
+    font-size: 1.2em;
+}
+
+#botaoo /*ajuste direção do add carinho*/{ 
+     /*ajuste direção do add carinho*/
+    margin-top: -55px;
+}
+
+#geral-container /* Permite quebra de linha quando necessário */{
+    /* Permite quebra de linha quando necessário */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* inicio forms*/
+
+.container-formulario /*ajuste forms*/{
+    /*ajuste forms*/
+    max-width: 600px;
+    width: 470px ;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url(/imgfundo/seamless-pattern-with-burgers-fast-food_515421-481.png);
+    background-color: #ffffffde;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.form /* ajuste tamanho maximo do forms*/{
+    /* ajuste tamanho maximo do forms*/
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form h2 /* h2 do  do forms*/{
+    /* h2 do  do forms*/
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(16, 190, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-group /* desgrudar o forms do bottom do forms*/{
+    /* desgrudar o forms do bottom do forms*/
+    margin-bottom: 20px;
+}
+
+.form-group label /*ajust labels do forms*/{
+    /*ajust labels do forms*/
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea /*ajust estyloa aos elementos do forms*/{
+    /*ajust estyloa aos elementos do forms*/
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input, textarea { /*deixar background meio transparente das barras do forms*/
+    /*deixar background meio transparente das barras do forms*/
+    background: #ffffff94;
+}
+
+
+label{ /* cor label*/
+    color: #01ff01  ;
+}
+button[type="submit"] /*estilo e função botão*/{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00ff0096;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #03ff03;
+}
+/* inicio footer*/
+.footer {
+    background-color: #3616013f;
+    color: #fff;
+    padding: 30px 0;
+    position: relative;
+    margin-top: 120px;
+}
+
+
+.footer-content /* posicionamento*/{
+    /* posicionamento*/
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section ul /*resetando ul*/{
+     /*resetando ul*/
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a /* estilos*/{
+    /* estilos*/
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#Facebook:hover {
+    color: #030ea3;
+}
+#instagram:hover {
+    color: #ff198c;
+}
+#Twitter:hover {
+    color: #a0a7ffcc;
+}
+#trabalhe:hover {
+    color: #0ce3eb;
+}
+
+.footer-bottom {
+    background-color: #2222227a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.card-img-top /* Ajuste a altura da imagem */{
+    height: 300px;
+    /* Ajuste a altura da imagem */
+    object-fit: cover;
+}
+
+/* Final footer*/
+
+@media (max-width: 768px) {
+    #img-header-size {
+        height: 120px;
+        width: 100%;
+        margin-top: -9px;
+        object-fit: contain;
+    }
+    
+}
+@media (max-width: 1200px) {
+    #img-header-size {
+        height: 220px;
+        width: auto;
+        object-fit: fill;
+    }
+}
